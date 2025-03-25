@@ -1,0 +1,32 @@
+{
+  "name": "R1CHFUND DAO",
+  "network": "1",
+  "symbol": "R1D",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x742f3563408f07fFcD4C360241244fcaD5DD3E47",
+        "symbol": "R1D",
+        "decimals": 18
+      }
+    }
+  ],
+  "proposalThreshold": 20,
+  "quorum": 100,
+  "voting": {
+    "delay": 0,
+    "period": 259200
+  },
+  "type": "single-choice",
+  "choices": ["For", "Against", "Abstain"],
+  "admins": [
+    "y8888.eth",
+    "0xc9c87c37B95FEEcf650d416C18E4EfceF7030733"
+  ],
+  "avatar": "https://raw.githubusercontent.com/HugoY1/snapshot-spaces/920ded60c2eea8637f4a5acc8de12f95dfb0c132/spaces/spaces/r1chfund.eth/image.png",
+  "about": "R1CHFUND is a decentralized fund empowering early investors to build generational wealth through transparent governance and shared upside.",
+  "website": "https://r1chfund.xyz",
+  "github": "https://github.com/HugoY1",
+  "categories": ["investment", "dao", "fund"]
+}
